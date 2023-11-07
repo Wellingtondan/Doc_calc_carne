@@ -79,3 +79,12 @@ Conforme a exigência na grade de tributação para os campos citados no **Tipo 
 | ----------| --------------| 
 | Base do Calculado: R$100,00x38,89% | R$38,89 | 
 | Valor ICMS Calculado: R$38,89x18% | R$7,00 |
+
+
+## Scripts
+
+- O Calc para tributações de carne, é aplicado zero para não tomar crédito na saída.
+
+- A parte do script (c.PERTRIBUTADO IN (58.33, 58.34, 38.89)) é para identificar todas as tributações que estão com a redução para cesta básica, isso é para uma análise completa considerando todas as tributações, apenas para conferir se todas as tributações relacionadas a carne estão parametrizadas com a ***TIPOCALCICMSFISCI*** (utilizar o código 21 - "21 - ICMS Calculado - GIA do MS") / para filtro apenas das tributações com código 21 .TIPOCALCICMSFISCI = 21
+
+

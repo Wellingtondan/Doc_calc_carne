@@ -54,6 +54,16 @@ Conforme exemplo no Módulo Fiscal  a CST destacada em nota, estava considerando
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/f1b19ad2-8657-4cf2-b6ea-0a551593d85f)
 
+Para o caso das tributações tributadas, os campos Redução Cálculo Substituição Tributária, Redução da Base ICMS para Cálculo do ST e Alíquota da Base ICMS para Cálculo do ST, devem estar as configurações padrões:
+
+° Não Reduz
+
+° %Tributado
+
+° Reduz ICMS Próprio
+
+![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/618163ff-b704-4bca-9f67-006790a24947)
+
 
 > Tipo Calc.ICMS *(Observação: 21 - ICMS Calculado - GIA do MS)*
 

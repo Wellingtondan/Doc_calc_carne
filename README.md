@@ -16,7 +16,7 @@ Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros cré
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/9d03918a-2e8b-4879-9554-0b5a87d9076b)
 
-**Exemplo (Nota fiscal)**
+`Exemplo (Nota fiscal)`
 
 |***Produto***  |***Cortes Resfriados Frango*** | 
 | ----------| --------------| 
@@ -63,14 +63,7 @@ Conforme a exigência na grade de tributação para os campos citados no **Tipo 
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/9d01ead3-7c59-4b9e-a923-c119f3c4a338)
 
-|***Descrição***  |***Valor*** | 
-| ----------| --------------| 
-| %Tributado Calc. | 0,00 | 
-| %Isento Calc. | 0,00 |
-| %Outros Calc. | 100,00 (Para que seja considerado o total do produto) | 
-| Alíquota ICMS Calc. | 0,00 | 
-
-**Exemplo do cálculo sistema:**
+`Exemplo do cálculo sistema:`
 
 |***Descrição***  |***Valor*** | 
 | ----------| --------------| 

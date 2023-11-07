@@ -1,2 +1,38 @@
-# Doc_calc_carne
-Conferência Calc Carne
+# Conferência Calc Carne
+
+## Módulo Fiscal
+
+**ICMS Calculado – Impacto no Módulo Fiscal (Thiago)**
+
+Utilizado para quando a Nota Fiscal de entrada/saída tem alíquota diferente da alíquota aplicada (efetiva) para o cálculo do crédito/débito de ICMS e para que a escrituração no livro fiscal seja de acordo com as regras legais quanto a permissão deste crédito/débito, como por exemplo nas aquisições de carnes por empresas optantes pelo Regime Especial de Carnes - SP (Decreto 62.647/2017) ou por aquisições interestaduais de produtos/mercadorias que contemplam os itens da cesta básica com redução na base de cálculo, conforme RICMS de cada UF. Além das tratativas na Tributação por UF, para que a Nota Fiscal integre no livro fiscal com a alíquota efetiva (redução na Base de Cálculo – Cesta Básica) ou sem o crédito de ICMS (aquisições de carnes no Estado de SP), o parâmetro ICMS Calculado deverá estar marcado.
+
+### Parâmetros
+
+> Caminho: *Módulo Fiscal - Configuração - Parâmetros - Empresa - aba Registro Fiscal.*
+
+> ***Exemplo 1 (Carnes) – Aquisição de carnes por empresa optante pelo Regime Especial de Carnes (SP) – Utilização Tipo Calc. 21***
+
+Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição deverão ser lançadas como “Outras” no Livro Registro de Entradas, CST X90. Para melhor visualização, verifique o anexo compartilhado pelo Thiago (ICMS_Calculado_Fiscal).
+
+![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/9d03918a-2e8b-4879-9554-0b5a87d9076b)
+
+**Exemplo (Nota fiscal)**
+
+|***Produto***  |***Cortes Resfriados Frango*** | 
+| ----------| --------------| 
+| Valor do produto | R$ 99,45 | 
+| Base de Cálculo ICMS (Valor do produto x Redução (58,33%) ) | R$ 58,01 |
+| Valor ICMS (Base de Cálculo ICMS x alíquota efetiva (12%)) | R$ 6,96 | 
+| Alíquota ICMS | 12% | 
+| CST (Situação tributária NF) | 020 | 
+
+![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/035cd86f-43da-4822-a58b-b30ef919921f)
+
+### Consulta de Notas Fiscais
+
+Aqui nesse caminho é apenas para identificar como são lançados os dados parametrizados para o ICMS Calc. Quando cliente opta para Emissão Livros “ICMS Calculado”, os dados sobem corretamente com os cálculos devidos.
+
+Mas segue as observações que precisam estar configuradas quando for utilizadas para os produtos Carne:
+
+![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/0dffa0e7-7af2-4190-a02c-28ced25f4175)
+

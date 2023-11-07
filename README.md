@@ -14,7 +14,8 @@ Utilizado para quando a Nota Fiscal de entrada/saída tem alíquota diferente da
 
 Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros créditos do imposto para estas aquisições, portanto, nas aquisições de carnes, o valor do ICMS destacado nas Notas Fiscais de aquisição deverão ser lançadas como “Outras” no Livro Registro de Entradas, CST X90. Para melhor visualização, verifique o anexo compartilhado pelo Thiago (ICMS_Calculado_Fiscal).
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/9d03918a-2e8b-4879-9554-0b5a87d9076b)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/e849c6d4-6c2e-4d14-93a0-3dc02432a7ad)
+
 
 `Exemplo (Nota fiscal)`
 
@@ -26,7 +27,8 @@ Conforme Decreto 62.647/2017 é vedado o aproveitamento de quaisquer outros cré
 | Alíquota ICMS | 12% | 
 | CST (Situação tributária NF) | 020 | 
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/035cd86f-43da-4822-a58b-b30ef919921f)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/03f35f2b-fd98-4d0b-add0-3fe2052c0965)
+
 
 ### 2.Consulta de Notas Fiscais
 
@@ -34,13 +36,14 @@ Aqui nesse caminho é apenas para identificar como são lançados os dados param
 
 Mas segue as observações que precisam estar configuradas quando for utilizadas para os produtos Carne:
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/0dffa0e7-7af2-4190-a02c-28ced25f4175)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/fb4e0639-cc57-4a1e-8fb1-a0162d441bdf)
+
 
 ### 3.Registro de Entradas (Livro)
 
 É verificado o valor da operação (Total da entrada) e também o “COD” que para esse caso é o 3 (Operações sem crédito de Imposto-Outras).
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/1418bd1c-a9c7-4072-a31b-f407091c2ddb)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/84dda971-385b-43bf-9d77-28a5a21c9a61)
 
 
 ## Grade de tributação por UF
@@ -49,7 +52,8 @@ Mas segue as observações que precisam estar configuradas quando for utilizadas
 
 Conforme exemplo no Módulo Fiscal  a CST destacada em nota, estava considerando a “020” que representa a aba “Situação Tributária NF”. Como nesse caso não há aproveitamento de quaisquer outros créditos, o lançamento deve ser considerado como “Outras” no Livro Registro de Entradas com a CST x90 para a “Situação tributária NF de ICMS Calculado”, como na imagem abaixo:
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/5722ac5a-3099-4feb-86a6-f78af2dc8622)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/f1b19ad2-8657-4cf2-b6ea-0a551593d85f)
+
 
 > Tipo Calc.ICMS *(Observação: 21 - ICMS Calculado - GIA do MS)*
 
@@ -57,11 +61,13 @@ Tipo de cálculo Fiscal implementado para calcular ICMS Calculado com Redução 
 
 **Observação** – Este TIPOCALCICMSFISCI é utilizado por diversos clientes em diversas operações, solicitar a modificação do nome para 21 ICMS Calculado – Com Redução.
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/ee269552-eb5f-48bf-ba39-965967d8ea2c)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/fa124c7a-f105-4f65-8a25-2633387979a6)
+
 
 Conforme a exigência na grade de tributação para os campos citados no **Tipo Calc.ICMS**, segue ilustração abaixo da parametrização nos campos (%Tributado Calc./ %Isento Calc./ %Outros Calc./ Alíquota ICMS Calc.)
 
-> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/9d01ead3-7c59-4b9e-a923-c119f3c4a338)
+> ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/360ada34-58c6-4023-937d-dfbcaf410d4b)
+
 
 `Exemplo do cálculo sistema:`
 

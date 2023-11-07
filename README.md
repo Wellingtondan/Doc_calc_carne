@@ -88,3 +88,7 @@ Conforme a exigência na grade de tributação para os campos citados no **Tipo 
 - A parte do script (c.PERTRIBUTADO IN (58.33, 58.34, 38.89)) é para identificar todas as tributações que estão com a redução para cesta básica, isso é para uma análise completa considerando todas as tributações, apenas para conferir se todas as tributações relacionadas a carne estão parametrizadas com a ***TIPOCALCICMSFISCI*** (utilizar o código 21 - "21 - ICMS Calculado - GIA do MS") / para filtro apenas das tributações com código 21 .TIPOCALCICMSFISCI = 21
 
 > [Conferência Trib.Carnes](https://github.com/Wellingtondan/Doc_calc_carne/blob/main/5.Confer%C3%AAncia%20tributa%C3%A7%C3%B5es%20de%20carne%20aba%20ind%C3%BAstri.sql)
+
+## Considerações
+
+As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado por Mariana e orientações adicionais da Analista Bruna.

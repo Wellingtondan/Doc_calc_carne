@@ -38,7 +38,7 @@ INNER JOIN db_trib_rev.tb_convenio_atual b ON SUBSTRING_INDEX(SUBSTRING_INDEX(TR
 INNER JOIN db_trib_rev.tb_grade_fonseca_sp c ON a.nrotributacao = c.nrotributacao
 WHERE c.tiptributacao = 'EI' -- Entrada Indústria
 AND c.PERTRIBUTADO IN (58.33, 58.34, 38.89) 
-/*Não adicionado filtro para o ccampo PERALIQICMSCALCPRECO = a 0, dessa forma os analistas podem analisar se não existem também tributações ausentes om o Calc 0*/
+/*Não adicionado filtro para o ccampo PERALIQICMSCALCPRECO = a 0, dessa forma os analistas podem analisar se não existem também tributações ausentes com o Calc 0*/
 GROUP BY 
     a.NROTRIBUTACAO,
     c.UFCLIENTEFORNEC,

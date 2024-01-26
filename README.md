@@ -108,3 +108,5 @@ Conforme a exigência na grade de tributação para os campos citados no **Tipo 
 ## Considerações
 
 As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
+
+Documento elaborado por Wellington, validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).

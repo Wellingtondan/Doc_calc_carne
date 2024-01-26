@@ -69,7 +69,8 @@ Para o caso das tributações tributadas, os campos Redução Cálculo Substitui
 
 Tipo de cálculo Fiscal implementado para calcular ICMS Calculado com Redução da base de Calculo, ao parametrizar o tipo 21, a tributação por UF exigirá as informações de %Base/%Isento/%Outras, o valor de ICMS Calculado será considerado no custo da mercadoria, no módulo Fiscal o valor calculado será considerado nas apurações.
 
-**Observação** – Este TIPOCALCICMSFISCI é utilizado por diversos clientes em diversas operações, solicitar a modificação do nome para 21 ICMS Calculado – Com Redução.
+>[!NOTE]
+>**Observação** – Este TIPOCALCICMSFISCI é utilizado por diversos clientes em diversas operações, solicitar a modificação do nome para 21 ICMS Calculado – Com Redução.
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_carne/assets/119419112/fa124c7a-f105-4f65-8a25-2633387979a6)
 
@@ -107,6 +108,7 @@ Conforme a exigência na grade de tributação para os campos citados no **Tipo 
 
 ## Considerações
 
-As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
-
-Documento elaborado por Wellington, validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
+>[!IMPORTANT]
+>As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
+>
+>Documento elaborado por Wellington, validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
